@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Sacramento&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f1f6f9;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.align-start {
+    align-self: flex-start;
+}
+
+.align-end {
+    align-self: flex-end;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 2px;
+    margin: 0;
+}
+
+
+
+h2 {
+    font-family: "Sacramento", cursive;
+    font-size: 3rem;
+    color: #394867;
+    /* margin-top: 0; */
+}
+
+p {
+    /* color: #394867; */
+    color: #000000;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.nav-bar {
+    background-color: #394867;
+    padding: 16px;
+}
+
+.logo-image {
+    height: 50px;
+    width: 50px;
+}
+
+.menu_item {
+    padding: 12px;
+    margin: 0 4px;
+    color: white;
+    background-color: transparent;
+    transition: 0.4s ease;
+    align-self: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu_item:hover {
+    background-color: white;
+    color: #212121;
+    border-radius: 4px;
+}
+
+.intro-body {
+    background-image: url("./assets/background-image.png");
+    background-size: cover;
+    align-items: center;
+    padding: 15%;
+}
+
+h1 {
+    font-family: "Sacramento", cursive;
+    font-size: 5rem;
+    margin: 0;
+    color: #212a3e;
+}
+
+.intro-body h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.hr-rule {
+    border: 6px dotted #9ba4b5;
+    border-bottom: none;
+    margin: 100px auto 50px auto;
+    width: 3%;
+}
+
+.my-skills {
+    align-items: center;
+    color: #394867;
+    text-align: center;
+
+}
+
+.skills-name {
+    background-color: #9ba4b5;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.skills-image {
+    width: 25%;
+    min-width: 100px;
+    max-width: 250px;
+}
+
+.button {
+    background-color: #394867;
+    color: #f1f6f9;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 25px;
+    border-style: none;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    /* cursor: pointer; */
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.button:hover {
+    background-color: #212a3e;
+    color: #ffffff;
+}
+
+.container {
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.container-content {
+    padding: 10px;
+    width: 70%;
+    border-radius: 20px;
+    align-items: center;
+    background-color: #9ba4b5;
+}
+
+.sorting-project-image {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.project-description {
+    margin: 0px 60px;
+}
+
+.achieve-container{
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.achieve-container-content{
+    padding: 10px;
+    width: 50%;
+    margin: 20px;
+    border-radius: 20px;
+    /* align-items: center; */
+    background-color: #9ba4b5;
+}
+
+.sih-image{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.footer-page{
+    padding: 30px;
+    background-color: #ffffff;
+    align-items: center;
+}
+.footer-page-content{
+    align-items: center;
+    width: 50%;
+    text-align: center;
+}
+
+footer{
+    background-color: #394867;
+    padding: 40px;
+    justify-content: center;
+    
+}
+footer a {
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+}
